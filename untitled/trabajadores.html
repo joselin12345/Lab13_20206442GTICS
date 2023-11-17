@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <title>Trabajadores</title>
+    <style>
+        #buttons {
+            display: flex;
+        }
+
+        .button {
+            display: flex;
+            margin: 10px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+
+<style>
+    .navbar {
+        background-color: #333;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .navbar img {
+        max-width: 100px; /* Ajusta según el tamaño de tu logo */
+        height: auto;
+    }
+
+    .navbar h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+</style>
+
+<body>
+
+<div class="navbar">
+    <img src="logo.jpeg" alt="Logo">
+    <h1 id="title">Bicicentro Gtics</h1>
+    <a href="menu.html" class="button">Volver</a>
+</div>
+
+<h2 class="display-4" style="font-weight: bold;">
+    <hr class="linea-superior">
+    Lista de Trabajadores
+    <hr class="linea-inferior">
+</h2>
+
+<br>
+<table class="table table-bordered border-primary">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Correos</th>
+        <th scope="col"></th>
+    </tr>
+    </thead>
+    <tbody id="cuadro">
+
+
+    </tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"></script>
+
+<script>
+
+
+    $( document).ready(function (){
+
+        $.ajax({
+            url:"http://localhost:3000/trabajadores",
+            method:"GET",
+            dataType : "json"  })
+            .done(function (data){
+
+                var contentHtml = "";
+                let p=0;
+                $.each(data , function (i, repuesta) {
+                        p= p+ 1;
+                        contentHtml += "<tr>";
+                        contentHtml += "<td>" + p+ "</td>";
+                        contentHtml += "<td>" + repuesta.nombres + " " + repuesta.apellidos + " </td>";
+                        contentHtml += "<td>" + repuesta.correo +  "</td>";
+                        contentHtml += "<td><a class='btn btn-danger' href='detallesTrabajador.html?id=" + encodeURI(repuesta.dni) +"' > " + "Detalles" +  "</td>";
+                        contentHtml += "</tr>";
+
+                });
+
+                $("#cuadro").html(contentHtml);
+
+            })
+            .fail(function (error){
+                console.log(error);
+                alert(error)
+            })
+
+
+    });
+
+
+</script>
+
+
+</body>
+</html>
