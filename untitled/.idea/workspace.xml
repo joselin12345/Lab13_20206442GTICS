@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b03aec7e-1e57-4caf-a81a-a8ad6dff4c17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/java/com/example/ejercicio/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/resources/recursos/fondoInicio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/resources/recursos/inicio.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/resources/recursos/monedas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/resources/recursos/registro.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/resources/static/styleHomepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab1/Nueva carpeta/ejercicio/src/main/resources/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/controllers/artistasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/controllers/integrantesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/controllers/principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/controllers/proveedoresController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/entity/artistas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/entity/concierto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/entity/integrantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/entity/proveedores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/repository/artistasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/repository/conciertosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/repository/integrantesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/java/com/example/conciertos/repository/proveedoresRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/artistas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/artistasEditar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/artistasNuevos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/integrantes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/integrantesNuevos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/principal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab3/2023-1/conciertos/src/main/resources/templates/proveedores.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../practicas/lab6/lab6_sol/src/main/java/com/example/lab6_sol/entity/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab12/lab12/Acumulado.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab12/lab12/Apertura.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab12/lab12/Clausura.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab12/lab12/Equipo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2YHXCPwZ9JIh0nD1sBLr5SKKJeX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/jossr/IdeaProjects/gtics/labs/real/lab13/untitled/hello.js",
+    "settings.editor.selected.configurable": "preferences.applicationServers",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="hello.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="hello.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b03aec7e-1e57-4caf-a81a-a8ad6dff4c17" name="Changes" comment="" />
+      <created>1700183352417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700183352417</updated>
+      <workItem from="1700183353522" duration="157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
